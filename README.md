@@ -9,6 +9,3 @@ Proposing content directly to the dao which will voted upon by a the DAO and on 
 Creating normal proposal such as chaning the profile image uri or any of function call by the DAO.
 ![image](https://user-images.githubusercontent.com/63945913/226264779-30112ced-5fbd-4f44-83db-f88d137fb448.png)
 
-
-View the ongoing proposals.
-![image](https://user-images.githubusercontent.com/63945913/226264902-c6ba1faa-cfdd-4bdc-9567-1cae644a3936.png)
