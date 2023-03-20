@@ -29,7 +29,7 @@ export default function Post(props){
             onChange={(e) => setContent(e.target.value)}
             />
             <br/>
-            <button className={styles.button2} onClick={() =>propose()}>Propose Content to the Lens Protocol</button>
+            <button className={styles.button2} onClick={() =>propose()}>Propose Content to the DAO</button>
         </div>
     )
 }

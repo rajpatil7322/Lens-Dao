@@ -311,9 +311,9 @@ export default function Home() {
         <div className={styles.main}>
           <div>
             <ConnectButton/>
-            <h1 className={styles.title}>Welcome to News Dao</h1>
+            <h1 className={styles.title}>Welcome to Lens Dao</h1>
             <div className={styles.description}>Powered by the Lens Protocol</div>
-            <div className={styles.description}>Enabling citizen journalism</div>
+            <div className={styles.description}>Enabling decentralized content</div>
             <div className={styles.description}>
                 Total Proposals :{numProposals}
                 <br/>
