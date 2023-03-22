@@ -204,23 +204,23 @@ export default function Home() {
   function renderCreateProposalTab(){
     return (
       <div className={styles.container}>
-        <label>Enter a list of target address: For example ["0x00...","0x00.."] </label>
+        <label>Enter a list of target address: For example 0x00...,0x00.. </label>
         <input
           placeholder="0x0000000000000000000000000000000000000000"
           type="text"
           onChange={(e) => setTargetAddress(e.target.value.split(","))}
         />
         <br/>
-        <label>Enter a list of values: For example [1,2] </label>
+        <label>Enter a list of values: For example 1,2 </label>
         <input
-          placeholder="[1,2]"
+          placeholder="1,2"
           type="text"
           onChange={(e) => setValues(e.target.value.split(","))}
         />
         <br/>
-        <label>Enter a list of calldatas: For example ["0xz3j23bs5as","0xkna63h72b"] </label>
+        <label>Enter a list of calldatas: For example 0xz3j23bs5as,0xkna63h72b </label>
         <input
-          placeholder="['0xz3j23bs5as','0xkna63h72b']"
+          placeholder="0xz3j23bs5as,0xkna63h72b"
           type="text"
           onChange={(e) => setcalldata(e.target.value.split(","))}
         />
@@ -231,6 +231,7 @@ export default function Home() {
           type="text"
           onChange={(e) => setdescription(e.target.value)}
         />
+        <br/>
         <button className={styles.button2} onClick={() =>Propose()}>
           Propose
         </button>
