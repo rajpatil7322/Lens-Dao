@@ -286,13 +286,13 @@ export default function Home() {
   }
 
   useEffect(() =>{
-    getNftBalance().then(() =>{
+    if(address){
+      getNftBalance()
       getNumProposals(); 
       getblocknumber();
       getDelegatedSupply();
       getPublicationCount();
-    })
-     
+    }
   })
 
   useEffect(() => {
